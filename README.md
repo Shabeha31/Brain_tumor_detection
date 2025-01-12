@@ -22,17 +22,20 @@ o	Transfer Learning Models: Pre-trained models (VGG-16, InceptionV3, MobileNet) 
 4.	Evaluation Metrics: The models were evaluated based on accuracy, precision, recall, and F1 score. Confusion matrices and accuracy/loss curves were also analyzed.
 
 Results
-Model	Training Accuracy	Validation Accuracy	Test Accuracy	Training Time
-CNN (Real)	58%	73%	63%	3:56
-CNN (Augmented)	100%	89%	93%	29:50
-VGG-16	98%	94%	95%	1:59:58
-InceptionV3	100%	97%	98%	26:42
-MobileNet	100%	99%	99%	9:46
 
-•	Best Model: MobileNet achieved the highest test accuracy (99%) and was the most time-efficient, completing training in just under 10 minutes. This model’s efficiency and accuracy make it ideal for real-time clinical use.
+Model	Training Accuracy	Validation Accuracy	Test Accuracy	Training Time
+  CNN (Real)	58%	73%	63%	3:56
+  CNN (Augmented)	100%	89%	93%	29:50
+  VGG-16	98%	94%	95%	1:59:58
+  InceptionV3	100%	97%	98%	26:42
+  MobileNet	100%	99%	99%	9:46
+
+Best Model: MobileNet achieved the highest test accuracy (99%) and was the most time-efficient, completing training in just under 10 minutes. This model’s efficiency and accuracy make it ideal for real-time clinical use.
 
 Key Findings
+
 •	Data Augmentation: Significantly improved model performance by expanding the dataset and reducing overfitting.
+
 •	Model Comparison: MobileNet outperformed other models, combining high accuracy with low computational demands, making it well-suited for clinical applications.
 •	Transfer Learning Advantage: Pre-trained models provided higher accuracy and generalization compared to the custom CNN model, especially on the augmented dataset.
 
