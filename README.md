@@ -44,3 +44,5 @@ Data preprocessing steps include resizing, normalization, and augmentation (rota
    ```bash
    git clone https://github.com/Shabeha31/Brain_tumor_detection.git
    cd Brain_tumor_detection
+   pip install -r requirements.txt
+
