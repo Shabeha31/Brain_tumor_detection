@@ -7,7 +7,7 @@
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Results](#results)
-- [Key findings](#Key--Findings)
+- [Key findings](#Key-Findings)
 - [Conclusion](#Conclusion)
 ---
 
