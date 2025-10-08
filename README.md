@@ -10,7 +10,7 @@
 ---
 
 ## Project Overview
-This project focuses on detecting brain tumors from MRI images using deep learning. It combines custom Convolutional Neural Network (CNN) architectures and pre-trained transfer learning models to classify MRI scans as 'Tumor' or 'No Tumor'. The goal is to provide a reliable and automated method for early detection of brain tumors.
+This project explores the application of deep learning models for detecting brain tumors from MRI images. The study leverages Convolutional Neural Networks (CNN) and various pre-trained transfer learning models such as VGG-16, InceptionV3, and MobileNet. The models are trained and tested on MRI images with data augmentation techniques to improve generalization, mitigate overfitting, and enhance detection accuracy. Among the evaluated models, MobileNet achieved the highest accuracy, demonstrating its suitability for clinical applications..
 
 Key objectives:
 - Apply deep learning techniques for image classification.
@@ -21,8 +21,8 @@ Key objectives:
 
 ## Dataset
 The dataset consists of labeled MRI images divided into two categories:
-- **Tumor**: MRI scans showing brain tumors.
-- **No Tumor**: MRI scans of healthy brains.
+- **Yes**: MRI scans showing brain tumors.
+- **No**: MRI scans of healthy brains.
 
 Data preprocessing steps include resizing, normalization, and augmentation (rotation, flipping, zooming) to enhance model performance.
 
@@ -60,14 +60,15 @@ Data preprocessing steps include resizing, normalization, and augmentation (rota
 
 ## Results
 
-Model	Training Accuracy	Validation Accuracy	Test Accuracy	Training Time
-CNN (Real)	58%	73%	63%	3:56
-CNN (Augmented)	100%	89%	93%	29:50
-VGG-16	98%	94%	95%	1:59:58
-InceptionV3	100%	97%	98%	26:42
-MobileNet	100%	99%	99%	9:46
+| Model            | Training Accuracy | Validation Accuracy | Test Accuracy | Training Time |
+|-----------------|-----------------|-------------------|---------------|---------------|
+| CNN (Real)      | 58%             | 73%               | 63%           | 3:56          |
+| CNN (Augmented) | 100%            | 89%               | 93%           | 29:50         |
+| VGG-16          | 98%             | 94%               | 95%           | 1:59:58       |
+| InceptionV3     | 100%            | 97%               | 98%           | 26:42         |
+| MobileNet       | 100%            | 99%               | 99%           | 9:46          |
 
-Best Model: MobileNet – highest test accuracy with efficient training time.
+**Best Model:** MobileNet achieved the highest test accuracy (**99%**) and was the most time-efficient, completing training in just under 10 minutes.  
+This model’s efficiency and accuracy make it ideal for real-time clinical use.
 
----
 
