@@ -7,9 +7,6 @@
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Results](#results)
-- [License](#license)
-- [Author](#author)
-
 ---
 
 ## Project Overview
@@ -44,5 +41,33 @@ Data preprocessing steps include resizing, normalization, and augmentation (rota
    ```bash
    git clone https://github.com/Shabeha31/Brain_tumor_detection.git
    cd Brain_tumor_detection
+2. Install dependencies:
    pip install -r requirements.txt
+3. Ensure you have Jupyter Notebook or a Python IDE installed.
+
+---
+
+## Usage
+1. Open the Jupyter Notebook:
+   jupyter notebook Brain_Tumor_Detection.ipynb
+2. Follow the notebook cells to:
+   . Load and preprocess the dataset
+   . Train and evaluate models
+   . Visualize results
+3. Optionally, adjust hyperparameters (epochs, batch size, learning rate) to experiment.
+
+---
+
+## Results
+
+Model	Training Accuracy	Validation Accuracy	Test Accuracy	Training Time
+CNN (Real)	58%	73%	63%	3:56
+CNN (Augmented)	100%	89%	93%	29:50
+VGG-16	98%	94%	95%	1:59:58
+InceptionV3	100%	97%	98%	26:42
+MobileNet	100%	99%	99%	9:46
+
+Best Model: MobileNet – highest test accuracy with efficient training time.
+
+---
 
