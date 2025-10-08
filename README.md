@@ -7,6 +7,8 @@
 - [Installation & Setup](#installation--setup)
 - [Usage](#usage)
 - [Results](#results)
+- [Key findings](#Key_Findings)
+- [Conclusion](#Conclusion)
 ---
 
 ## Project Overview
@@ -71,4 +73,14 @@ Data preprocessing steps include resizing, normalization, and augmentation (rota
 **Best Model:** MobileNet achieved the highest test accuracy (**99%**) and was the most time-efficient, completing training in just under 10 minutes.  
 This model’s efficiency and accuracy make it ideal for real-time clinical use.
 
+## Key Findings
+- **Data Augmentation:** Significantly improved model performance by expanding the dataset and reducing overfitting.  
+- **Model Comparison:** MobileNet outperformed other models, combining high accuracy with low computational demands, making it well-suited for clinical applications.  
+- **Transfer Learning Advantage:** Pre-trained models provided higher accuracy and generalization compared to the custom CNN model, especially on the augmented dataset.  
+
+---
+
+## Conclusion
+This study demonstrates the effectiveness of transfer learning models, particularly MobileNet, in accurately detecting brain tumors from MRI images.  
+By leveraging **data augmentation** and **pre-trained models**, this project offers a reliable, fast, and accurate approach that could support radiologists in diagnosing brain tumors.
 
