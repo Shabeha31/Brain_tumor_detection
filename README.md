@@ -1,6 +1,3 @@
-Absolutely! Here’s a **fully rewritten README.md** for your Brain Tumor Detection project, now including all sections listed in your requested **Table of Contents**.
-
-````markdown
 # 🧠 Brain Tumor Detection Using CNN & Transfer Learning
 
 ## Table of Contents
@@ -47,52 +44,3 @@ Data preprocessing steps include resizing, normalization, and augmentation (rota
    ```bash
    git clone https://github.com/Shabeha31/Brain_tumor_detection.git
    cd Brain_tumor_detection
-````
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Ensure you have Jupyter Notebook or any Python IDE installed to run the code.
-
----
-
-## Usage
-
-1. Open the Jupyter Notebook:
-
-   ```bash
-   jupyter notebook Brain_Tumor_Detection.ipynb
-   ```
-
-2. Follow the notebook cells to:
-
-   * Load the dataset
-   * Train models
-   * Evaluate accuracy
-   * Visualize results
-
-3. Optionally, modify parameters such as batch size, learning rate, or number of epochs for experimentation.
-
----
-
-## Results
-
-* MobileNet achieved the **highest accuracy**, making it the most effective model for detecting brain tumors in this dataset.
-* Visualizations of training and validation accuracy/loss demonstrate model performance.
-* Confusion matrices and classification reports provide detailed insights into model predictions.
-
----
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Author
-
-**Shabeha31**
-GitHub: [https://github.com/Shabeha31](https://github.com/Shabeha31)
